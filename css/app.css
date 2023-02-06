@@ -11,6 +11,11 @@ img {
     object-position: center;
 }
 
+button {
+    border-style: none;
+    background-color: transparent;
+}
+
 .carousel {
     position: relative;
 }
