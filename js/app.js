@@ -2,6 +2,33 @@ console.log('hello')
 
 const slides = ['./img/01.jpg', './img/02.jpg', './img/03.jpg', './img/04.jpg', './img/05.jpg']
 
+// for (let i = 0; i < 5; i++) {
+
+//     let imgElement = document.createElement("img")
+//     imgElement.setAttribute("src", slides[0])
+//     document.getElementById("place-img-here").appendChild(imgElement) 
+// }
+
+let imgElement = document.createElement("img")
+imgElement.setAttribute("src", slides[0])
+document.getElementById("place-img-here").appendChild(imgElement)
+
+let imgElement1 = document.createElement("img")
+imgElement1.setAttribute("src", slides[1])
+document.getElementById("place-img-here-2").appendChild(imgElement1)
+
+let imgElement2 = document.createElement("img")
+imgElement2.setAttribute("src", slides[2])
+document.getElementById("place-img-here-3").appendChild(imgElement2)
+
+let imgElement3 = document.createElement("img")
+imgElement3.setAttribute("src", slides[3])
+document.getElementById("place-img-here-4").appendChild(imgElement3)
+
+let imgElement4 = document.createElement("img")
+imgElement4.setAttribute("src", slides[4])
+document.getElementById("place-img-here-5").appendChild(imgElement4)
+
 
 // GET elements from HTML
 
